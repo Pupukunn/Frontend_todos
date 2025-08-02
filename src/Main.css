@@ -1,0 +1,28 @@
+/* src/styles.css */
+@import "tailwindcss";
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@theme {
+  --font-primary: "Roboto", Arial, sans-serif;
+  --color-primary: #4a5565;
+  --color-secondary: #ffffff;
+  --color-third: #7F8CAA;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+}
+
+.font-primary {
+  font-family: var(--font-primary) !important;
+}
